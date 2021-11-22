@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Home page",
+    "line": 1,
+    "id": "home-page",
+    "tags": [],
+    "uri": "HomePage.feature",
+    "elements": [
+      {
+        "id": "home-page;see-the-home-page",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "See the home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "we visit Todo website",
+            "result": {
+              "status": "passed",
+              "duration": 24842000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "The homepage is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I see the home page",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

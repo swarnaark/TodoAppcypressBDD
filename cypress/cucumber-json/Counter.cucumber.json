@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Counter",
+    "line": 1,
+    "id": "counter",
+    "tags": [],
+    "uri": "Counter.feature",
+    "elements": [
+      {
+        "id": "counter;counter-must-display-the-crrent-number-of-todo-items",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Counter must display the crrent number of Todo items",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "we visit Todo website",
+            "result": {
+              "status": "passed",
+              "duration": 12985000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I enter my Todos to a list",
+            "result": {
+              "status": "passed",
+              "duration": 737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see that counter displays current number of Todos",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

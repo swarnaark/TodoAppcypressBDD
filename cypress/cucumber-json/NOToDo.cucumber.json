@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check main and footer when No Todo",
+    "line": 1,
+    "id": "check-main-and-footer-when-no-todo",
+    "tags": [],
+    "uri": "NOToDo.feature",
+    "elements": [
+      {
+        "id": "check-main-and-footer-when-no-todo;no-main-and-footer-visible",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "No main and footer visible",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "we visit Todo page",
+            "result": {
+              "status": "passed",
+              "duration": 28265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "there is No Todo's",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "#main and #footer not visible",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

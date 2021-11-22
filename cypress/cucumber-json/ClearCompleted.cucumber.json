@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Clear Completed",
+    "line": 1,
+    "id": "clear-completed",
+    "tags": [],
+    "uri": "ClearCompleted.feature",
+    "elements": [
+      {
+        "id": "clear-completed;should-display-clear-completed-in-footer",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Should display Clear completed in footer",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "we visit Todo website",
+            "result": {
+              "status": "passed",
+              "duration": 4491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "I enter all Todos",
+            "result": {
+              "status": "passed",
+              "duration": 852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I mark Todos as completed",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Clear completed is available in footer for user to view",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "clear-completed;remove-completed-items-when-clicked",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Remove completed items when clicked",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "we visit Todo website",
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter all Todos",
+            "result": {
+              "status": "passed",
+              "duration": 885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I mark Payrent as completed",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on clear completed",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The items in the lists are cleared",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "clear-completed;should-be-hidden-when-there-are-no-completed-items",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Should be hidden when there are no completed items",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "we Add multiple Todos",
+            "result": {
+              "status": "passed",
+              "duration": 913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "items are not completed",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Clear completed is hidden",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
